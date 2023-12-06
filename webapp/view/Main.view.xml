@@ -1,0 +1,11 @@
+<mvc:View xmlns:core="sap.ui.core" controllerName="ui5.demo.xmlwithstylesheet.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+                <content>
+                    <VBox id="vbox" alignItems="Center">
+                        <core:HTML id="result"/>
+                    </VBox>
+                </content>
+    </Page>
+</mvc:View>
